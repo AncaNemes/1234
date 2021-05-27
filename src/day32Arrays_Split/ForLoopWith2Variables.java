@@ -1,0 +1,16 @@
+package day32Arrays_Split;
+
+public class ForLoopWith2Variables {
+    public static void main(String[] args) {
+        //loops with 2 variables
+
+        for (int i = 1, j=1; i<=4; i++, j++){
+        System.out.println("i = " + i+  " ,j=" +j);
+        }
+        System.out.println(">>>>>>>>>>>>>>>>>>>>>>>>>>");
+        for(int i= 1, j=5;j >=0; i++, j--){
+            System.out.println("i = " + i+  " ,j=" +j);
+        }
+
+    }
+}
