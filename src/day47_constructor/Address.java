@@ -1,5 +1,7 @@
 package day47_constructor;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class Address {
 
     //Encapsulate -private data in the address:
@@ -14,6 +16,23 @@ private String city;
 private String state;
 private String zipcode;
 private String country = "USA";
+
+// CONSTRUCTOR CLASS
+public Address (){
+    System.out.println("Address constructor ");
+    street = "123 unknown st";
+    city = " unknown";
+    state = " unknown";
+    zipcode =" unknown";
+}
+//second constructor OVELOADED CONSTRUCTOR, PROVIDES shortcut to intialize
+    //in the same statement: exp Address = new Address("123 java st", "boston")
+public Address(String street, String city, String state, String zipcode){
+    this.street= street;
+    setStreet(street);
+}
+
+
 
 //generate : getters/setters
 // generate :toString
