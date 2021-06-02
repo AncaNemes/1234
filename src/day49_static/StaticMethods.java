@@ -34,6 +34,7 @@ public class StaticMethods {
         System.out.println("count= " +count);
         System.out.println();
         displayMessage("woodenspoon");
+        System.out.println("new");
     }
 }
 
